@@ -270,10 +270,12 @@ display: block;
 }
 
 .dropdown {
+    background-color:white;
     position: relative;
     display: inline-block;
-    right: 10px;
+    right: -10px;
     top:-65px;
+    
 }
 
 /* Menü düğmesi */
