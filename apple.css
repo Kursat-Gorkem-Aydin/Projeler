@@ -1,3 +1,9 @@
+body
+{
+overflow-x:hidden;
+}
+
+
 .header
 {
 background-color:#282829;
@@ -270,60 +276,54 @@ display: block;
 }
 
 .dropdown {
-    background-color:white;
-    position: relative;
-    display: inline-block;
-    right: -10px;
-    top:-65px;
-    
+position: relative;
+display: inline-block;
+right: 10px;
+top:-65px;
 }
 
-/* Menü düğmesi */
 .dropbtn {
-    background:transparent; /* Arka plan rengi */
-    color: white; /* Yazı rengi */
-    padding: 10px 20px; /* İç boşluk */
-    font-size: 18px; /* Yazı boyutu */
-    border: none; /* Kenarlık yok */
-    cursor: pointer; /* İmleç tipi */
-    border-radius: 4px; /* Köşe yuvarlama */
-    position: relative;
-    right:-1300px;
-    top:-6px;
-    height:5px;
+background:transparent; 
+color: white; 
+padding: 10px 20px; 
+font-size: 18px; 
+border: none; 
+cursor: pointer; 
+border-radius: 4px; 
+position: relative;
+right:-0px;
+top:-6px;
+height:5px;
 }
 
-/* Dropdown menü içerikleri */
 .dropdown-content {
-    display: none; /* Varsayılan olarak gizli */
-    position: absolute; /* Menü konumlandırması */
-    background-color: #1d1d1f; /* Arka plan rengi */
-    width: 1538px; /* Menü genişliği */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Gölge efekti */
-    z-index: 1; /* Üstte görünmesi için */
+display: none; 
+position: absolute; 
+background-color: #1d1d1f; 
+width: 1538px; 
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+z-index: 1; 
 }
 
-/* Menü bağlantıları */
+
 .dropdown-content a {
-    color: black; /* Yazı rengi */
-    padding: 12px 16px; /* İç boşluk */
-    text-decoration: none; /* Alt çizgi yok */
-    display: block; /* Satır bloğu */
+color: black; 
+padding: 12px 16px; 
+text-decoration: none; 
+display: block; 
 }
 
-/* Menü bağlantıları üzerine gelindiğinde */
 .dropdown-content a:hover {
-    cursor:default;
+cursor:default;
 }
 
-/* Menü düğmesine tıklandığında dropdown'u göster */
 .dropdown:hover .dropdown-content {
-    display: block; /* Görünür yap */
+display: block; 
 }
 
-/* Menü düğmesine tıklandığında rengini değiştirme */
+
 .dropdown:hover .dropbtn {
-    background-color: #1d1d1f; /* Tıklama rengi */
+background-color: #1d1d1f; 
 }
 
 .src
@@ -344,4 +344,173 @@ color:white;
 {
 font-weight:bolder;
 font-size:20px;
+}
+
+#fnt
+{
+color:rgb(173, 173, 173);
+font-size:small;
+position: relative;
+right:-250px;
+top:-4px;
+width:100px;
+}
+
+ul{
+list-style-type:none;
+}
+
+#fnt1
+{
+color:white;
+font-size:12px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+width:1000px;
+position: relative;
+right:-250px;
+top:-20px;
+border-radius:15px;
+}
+
+#fnt1:hover
+{
+background-color:rgb(162, 162, 162);
+color:rgb(33, 31, 31);
+}
+
+#fnt2
+{
+color:white;
+font-size:12px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+width:1000px;
+position: relative;
+right:-250px;
+top:-20px;
+border-radius:15px;
+}
+
+#fnt2:hover
+{
+background-color:rgb(162, 162, 162);
+color:rgb(33, 31, 31);
+}
+
+#fnt3
+{
+color:white;
+font-size:12px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+width:1000px;
+position: relative;
+right:-250px;
+top:-20px;
+border-radius:15px;
+}
+
+#fnt3:hover
+{
+background-color:rgb(162, 162, 162);
+color:rgb(33, 31, 31);
+}
+
+#fnt4
+{
+color:white;
+font-size:12px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+width:1000px;
+position: relative;
+right:-250px;
+top:-20px;
+border-radius:15px;
+}
+
+#fnt4:hover
+{
+background-color:rgb(162, 162, 162);
+color:rgb(33, 31, 31);
+}
+
+#fnt5
+{
+color:white;
+font-size:12px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+width:1000px;
+position: relative;
+right:-250px;
+top:-20px;
+border-radius:15px;    
+}
+
+#fnt5:hover
+{
+background-color:rgb(162, 162, 162);
+color:rgb(33, 31, 31);
+}
+
+#animation
+{
+position: relative;
+right:-500px;
+top:-61px
+}
+
+.bganimation
+{
+width:1536px;
+height:500px;
+background-color:rgb(0, 0, 0);
+position: relative;
+left:-8px;
+top:-61px
+}
+
+.fnt_
+{
+color:white;
+font-size:50px;
+font-family: sans-serif;
+font-weight:bolder;
+position: relative;
+right:-600px;
+top:-15px;
+}
+
+.fnt_1
+{
+color:white;
+font-size:27px;
+font-family: sans-serif;
+position: relative;
+right:-535px;
+top:-55px;
+}
+
+.btn
+{
+position: relative;
+right:-675px;
+top:-150px;
+border-radius:30px;
+border:none;
+background-color:#0077ed;
+color:rgb(216, 214, 214);
+width:140px;
+height:45px;
+font-weight:bold;
+font-size:17px;
+cursor: pointer;
+}
+
+.btn:hover
+{
+color:white;
+background-color: #0681fc;
 }
